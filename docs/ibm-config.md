@@ -72,7 +72,7 @@ In the root of your Ark directory, run:
   kubectl apply -f examples/common/10-deployment.yaml
   ```
 
-  [0]: /namespace.md
+  [0]: namespace.md
   [1]: https://console.bluemix.net/docs/services/cloud-object-storage/basics/order-storage.html#creating-a-new-resource-instance
   [2]: https://console.bluemix.net/docs/services/cloud-object-storage/getting-started.html#create-buckets
   [3]: https://console.bluemix.net/docs/services/cloud-object-storage/iam/service-credentials.html#service-credentials
