@@ -71,13 +71,10 @@ After you set up the Ark server, try these examples:
     ark restore create nginx-backup
     ```
 
-
 [0]: aws-config.md
 [1]: gcp-config.md
 [2]: azure-config.md
 [3]: namespace.md
 [4]: ibm-config.md
-
-
 [19]: https://kubernetes.io/docs/concepts/storage/persistent-volumes/#reclaiming
 
