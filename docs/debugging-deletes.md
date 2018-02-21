@@ -35,7 +35,11 @@ The Ark team added the ability to delete backups by adding a **finalizer** to ea
 backup. When you request the deletion of an object that has at least one finalizer, Kubernetes sets
 the object's deletion timestamp, which indicates that the object is marked for deletion. However, it does
 not immediately delete the object. Instead, the object is deleted only when it no longer has
+<<<<<<< HEAD
 any finalizers. This means that something -- in this case, Ark -- must process the backup and then
+=======
+any finalizers. This means that something -- in this case, Ark, in this case -- must process the backup and then
+>>>>>>> 037f49f... edit troubleshooting, add links
 remove the Ark finalizer from it.
 
 Ark versions earlier than v0.7.1 place the Ark server pod in the same namespace as backups, restores,
